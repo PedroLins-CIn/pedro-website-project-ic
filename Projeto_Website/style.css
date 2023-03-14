@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    padding: 48px 32px 48px 32px;
+    font-size: large;
+}
+
+.bloco {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.descricao {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(14, 174, 238);
+}
+
+.habilidades {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(216, 218, 219);
+}
+
+.descricao_pessoal {
+    color: white;
+}
+
+.crop {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 216px;
+    height: 216px;
+    overflow: visible;
+    margin-left: 32px;
+}
+
+.crop img {
+    width: 200px;
+    height: 200px;
+}
+
+.foto {
+    display: flex;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    border-width: 8px;
+}
+
+#titulo_descricao {
+    margin: 0;
+    margin-bottom: 24px;
+}
